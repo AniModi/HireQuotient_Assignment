@@ -1,0 +1,36 @@
+.table_header_container {
+    &__row {
+      border-top: 1px solid #ddd;
+      & > * {
+        padding: 0 10px;
+        height: 40px;
+        text-align: left;
+        font-weight: normal;
+        color: gray;
+      }
+      &__select {
+        padding-left: 2rem;
+        width: 60px;
+        font-size: 1.15rem;
+        cursor: pointer;
+        color: black;
+      }
+
+      &__name {
+        width: calc(30% - 60px);
+      }
+
+      &__email {
+        width: 40%;
+      }
+
+      &__role {
+        width: 10%;
+      }
+
+      &__action {
+        width: 20%;
+      }
+
+    }
+  }

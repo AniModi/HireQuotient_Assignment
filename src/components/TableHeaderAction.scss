@@ -1,0 +1,33 @@
+.header_actions_container {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__search_box {
+      width: 20%;
+      height: 50%;
+      margin: 2rem;
+    }
+    &__delete_button_container {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 1rem;
+      &_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        height: 50%;
+        aspect-ratio: 1/1;
+        cursor: pointer;
+        background-color: #f20452;
+        color: white;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+      }
+    }
+  }

@@ -1,0 +1,9 @@
+:root {
+  --padding: 3rem;
+}
+
+.app_container {
+  padding: var(--padding);
+  width: calc(100% - var(--padding) * 2);
+  height: calc(100% - var(--padding) * 2);
+}

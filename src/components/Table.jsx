@@ -36,7 +36,7 @@ export default function Table({
 
   useEffect(() => {
     setSelected(selectedItems.length);
-  }, [selectedItems]);
+  }, [selectedItems]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleDelete = () => {
     setData(data.filter((item) => !selectedItems.includes(item.id)));

@@ -78,7 +78,7 @@ export default function App() {
     });
     setFilteredData(finalFilteredData);
     updateSearchResult(searchText);
-  }, [data]);
+  }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const startIndex = (currentPage - 1) * 10;
   const endIndex = startIndex + 10;
